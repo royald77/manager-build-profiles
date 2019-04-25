@@ -1,7 +1,7 @@
 # VERSION               1.0.0
 
-FROM opensuse:42.3
-MAINTAINER Michele Bologna <michele.bologna@suse.com>
+FROM registry.suse.com/suse/sles12sp4:latest
+MAINTAINER Jeff and Don
 
 ARG repo
 ARG cert
